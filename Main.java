@@ -4,6 +4,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!!");
         System.out.println("Hello Earth!!");
-        System.out.println("Без цикла");
+
+        for (int a=0;a<10;a++){
+            System.out.println(a);
+        }
     }
 }
